@@ -8,6 +8,7 @@ import 'package:products_project/core/router/router.dart';
 import 'package:products_project/features/auth/data/repos/auth_repo_impl.dart';
 import 'package:products_project/features/auth/presentation/logic/auth_cubit.dart';
 import 'package:products_project/features/products/presentation/logic/product_cubit.dart';
+import 'package:products_project/features/products/presentation/views/starting_app_view.dart';
 
 import '../../features/auth/presentation/views/login_view.dart';
 import '../../features/auth/presentation/views/registration_view.dart';
@@ -24,7 +25,12 @@ class AppRouter {
 
   Route generateRoute(RouteSettings settings) {
     switch (settings.name) {
+      case Routes.starting:
+        return navigateToRoute(
 
+              StartingAppView(),
+
+        );
       case Routes.loginScreen:
         return navigateToRoute(
             BlocProvider.value(

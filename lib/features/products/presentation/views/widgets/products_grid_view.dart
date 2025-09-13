@@ -37,6 +37,7 @@ class ProductsGridView extends StatelessWidget {
             child: SpinKitCubeGrid(
               color: AppColor.darkPrimaryColor,
               size: 50.0,
+
             ),
           );
         }

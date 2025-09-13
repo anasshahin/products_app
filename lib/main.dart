@@ -26,13 +26,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final user = getIt.get<FirebaseAuth>();
+    if(user.currentUser == null){
+
+    }else{
+
+    }
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-
-      initialRoute:user.currentUser == null ?Routes.loginScreen : Routes.mainProductScreen,
+      initialRoute:Routes.starting ,
    //   initialRoute: Routes.loginScreen,
       onGenerateRoute: appRouter.generateRoute,
     );

@@ -31,7 +31,7 @@ class CreateAccountButtonReg extends StatelessWidget {
           }
           if (state is RegisterAccountSuccess) {
             log('successfully done');
-            Navigator.of(context).pop();
+
             Navigator.of(
               context,
             ).pushReplacementNamed(Routes.mainProductScreen);

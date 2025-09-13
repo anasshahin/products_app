@@ -46,6 +46,7 @@ class MainAppView extends StatelessWidget {
                       onTap: () async {
                         await bloc.logout();
                         Navigator.of(context).pushReplacementNamed(Routes.loginScreen);
+
                       },
                       child: const Row(
                         children: [Icon(Icons.logout), Text('logout')],
