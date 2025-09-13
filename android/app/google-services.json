@@ -1,0 +1,125 @@
+{
+  "project_info": {
+    "project_number": "586300289424",
+    "firebase_url": "https://myfirstwork2-default-rtdb.firebaseio.com",
+    "project_id": "myfirstwork2",
+    "storage_bucket": "myfirstwork2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586300289424:android:06256e7dc45431bf6c4315",
+        "android_client_info": {
+          "package_name": "com.example.chat_app_example"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARt1HGRWX7KJf2NmQBzDi9jU_-uIo9Kdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586300289424:android:70284c2699b5d34e6c4315",
+        "android_client_info": {
+          "package_name": "com.example.chat_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARt1HGRWX7KJf2NmQBzDi9jU_-uIo9Kdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586300289424:android:ad0910f2ad6c0d2a6c4315",
+        "android_client_info": {
+          "package_name": "com.example.product_list_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARt1HGRWX7KJf2NmQBzDi9jU_-uIo9Kdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586300289424:android:903b919ff84705cd6c4315",
+        "android_client_info": {
+          "package_name": "com.example.products_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARt1HGRWX7KJf2NmQBzDi9jU_-uIo9Kdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586300289424:android:e343ba2bb18070eb6c4315",
+        "android_client_info": {
+          "package_name": "com.example.untitled"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARt1HGRWX7KJf2NmQBzDi9jU_-uIo9Kdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586300289424:android:23bfc24e239c01726c4315",
+        "android_client_info": {
+          "package_name": "com.wasil.product_list_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARt1HGRWX7KJf2NmQBzDi9jU_-uIo9Kdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
